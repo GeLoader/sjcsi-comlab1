@@ -10,7 +10,8 @@ export default defineConfig(({ mode }) => ({
   //   port: 8080,
   // },
   plugins: [react()],
-  base: "/sjcsi-comlab1",
+  // base: "/sjcsi-comlab1",
+  base: "./",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
